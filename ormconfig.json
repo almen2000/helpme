@@ -1,0 +1,12 @@
+{
+  "type": "postgres",
+  "host": "db",
+  "port": 5432,
+  "username": "botuser",
+  "password": "0000",
+  "database": "bot",
+  "synchronize": true,
+  "logging": true,
+  "entities": ["src/entities/*.ts"],
+  "migrations": ["src/migrations/*.ts"]
+}
